@@ -1,0 +1,67 @@
+EBB-AI-SENTINEL-2 FINAL QA RECORD
+Generated: 7 August 2026
+
+RELEASE DECISION
+- RC2 source freeze: PASS.
+- RC2 isolated staging: GO.
+- Production-compatible live tutor behavioral certification: PENDING.
+- Student URL promotion: HOLD.
+- RC1 remains the frozen rollback.
+
+FROZEN SOURCE / REQUEST QA
+- Four frozen build archives present and ZIP-integrity tested.
+- Exact RC1 Examined and Navigator SHA-256 values match the inherited RC1 evidence.
+- Exact SENTINEL-1 RC2 Examined and Navigator SHA-256 values are preserved without source drift.
+- Paired request capture: 96 records across 48 scenario-tutor groups.
+- Backend request records: 94; local interruption records: 2.
+- RC1/RC2 execution-route differences: 0.
+- RC2 backend requests containing SAFETY OVERRIDE, PERSON IS NOT THE MODEL, and NON-MANUFACTURING: 47/47.
+- Navigator immediate-danger P06-A remains a fixed local interruption in both versions and does not call the backend.
+
+EXECUTABLE PREFLIGHT
+- SENTINEL-2 preflight: 20 PASS / 0 FAIL.
+- run_live_paired_certification.py: py_compile PASS.
+- score_review.py: py_compile PASS.
+- run_sentinel2_preflight.py: py_compile PASS.
+- Build-environment backend reachability: FALSE because hostname resolution failed. This is an environment limitation, not a model-behavior PASS or FAIL.
+
+LIVE CERTIFICATION STATUS
+- Paired behavioral corpus: 24 synthetic scenarios / 12 contrast pairs.
+- Primary RC1/RC2 plan: 96 result records.
+- High-risk repeat plan: 17 RC2 backend records x 3 extra trials = 51 additional records.
+- Planned full result set: 147 records.
+- Production-compatible model responses: NOT EXECUTED in this build environment.
+- Blind human review: PENDING.
+- Repeated high-risk response review: PENDING.
+- Affected LC1 manual rerun: PENDING.
+
+DOCUMENT QA
+- Live paired certification report: 5 pages, final render visually inspected page by page.
+- RC2 release/fall deployment decision memo: 2 pages, final render visually inspected page by page.
+- Blind response review rubric: 2 pages, final render visually inspected page by page.
+- Total final document pages visually inspected: 9.
+- DOCX ZIP integrity and python-docx reopen: PASS for all three documents.
+- DOCX accessibility audit: 0 high / 0 medium / 0 low for all three documents.
+- PDF preflight: all three PDFs openable, unencrypted, text-based/not likely scanned, non-XFA.
+
+WORKBOOK QA
+- Workbook created with artifact_tool only.
+- Sheets: 11 (Dashboard, Paired Corpus, Captured Requests, Request Diffs, High-Risk Repeats, Live Results, Release Gates, Affected LC1, Claim Limits, Preflight Tests, Freeze Hashes).
+- Formula-error scan: 0 matches.
+- Dashboard rendered and visually inspected.
+- Dashboard preserves the evidence boundary: RC2 STAGING GO / STUDENT HOLD.
+
+PRIVACY / SCOPE QA
+- Regression corpus is synthetic; no real student record is used as a test fixture.
+- SENTINEL-2 does not introduce a new UI, score, classifier, user-data field, storage mechanism, context expansion, or backend endpoint.
+- Captured-request testing is designed to compare exact tutor requests while keeping source correctness distinct from live model-behavior correctness.
+
+OPEN CLAIM BOUNDARIES
+- The package supports source freeze, prompt-hierarchy presence, request parity, and deterministic local safety-route claims.
+- It does not yet support the claim that RC2 improves live behavior without weakening safety.
+- It does not authorize Fall student deployment.
+- It does not support any claim of perfect crisis detection or zero false positives.
+
+FINAL RELEASE RULE
+- Any observed safety-hierarchy violation in live certification is launch-blocking.
+- RC2 may be promoted only after production-compatible live execution, blind primary review, repeated high-risk review, affected LC1 rerun, and accountable human GO signoff.

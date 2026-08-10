@@ -1,0 +1,52 @@
+EBB-AI-SENTINEL-1 FINAL QA
+Date: 2026-08-07
+
+DECISION
+- RC2 staging candidate: CONDITIONAL GO
+- Student-facing promotion: HOLD
+- Reason for hold: live old-versus-revised behavior on the paired tutor corpus remains pending, along with affected Fall manual safety/device gates.
+
+BASELINE CONTROL
+- Exact RC1 Examined deployable hash: MATCHED
+- Exact RC1 Navigator deployable hash: MATCHED
+- Candidate build identities are RC2 sentinel candidates, not silent RC1 replacements.
+
+PATCH SCOPE
+- Examined: Companion instruction hierarchy + candidate build identity.
+- Navigator: Twin instruction hierarchy + prompt-level depletion rule + build/manifest/cache identity.
+- Existing Navigator fixed local immediate-crisis detector/message: byte-for-byte unchanged at function level.
+- New UI: none.
+- New score/classifier: none.
+- New storage or user-data field: none.
+- New backend endpoint: none.
+
+EXECUTABLE TESTS
+- Static source-contract tests: 29/29 PASS
+- Function-level Navigator safety fixtures: 8/8 PASS
+- Prompt runtime tests: 11/11 PASS
+- Inherited full RC1 automated regression: 16 PASS; 1 inherited MANUAL row
+- Paired behavior scenarios prepared: 24 scenarios in 12 contrast pairs
+- Live tutor execution rows prepared: 48 (24 scenarios × 2 tutors), all intentionally PENDING
+
+DOCUMENT QA
+- Principal report DOCX: 4 rendered pages, all visually inspected after final edit.
+- Tutor Constitution DOCX: 1 rendered page, visually inspected after final edit.
+- Principal report accessibility: 0 high / 0 medium / 0 low.
+- Tutor Constitution accessibility: 0 high / 0 medium / 0 low.
+- Both PDFs: openable, unencrypted, text-based, non-XFA; preflight clean.
+
+WORKBOOK QA
+- 9-sheet regression workbook.
+- Formula-error scan: 0 matches.
+- Dashboard rendered and visually inspected.
+- XLSX ZIP integrity: PASS.
+
+DEPLOYABLE QA
+- Examined candidate ZIP integrity: PASS.
+- Navigator candidate ZIP integrity: PASS.
+
+RELEASE BOUNDARY
+- Staging/test URLs: authorized.
+- Student URLs: not authorized by this build.
+- Any safety regression in live paired testing is launch-blocking.
+- Any subsequent prompt wording change requires full inherited automated rerun plus affected paired-case rerun.

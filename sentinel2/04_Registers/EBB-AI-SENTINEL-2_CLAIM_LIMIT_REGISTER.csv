@@ -1,0 +1,8 @@
+﻿claim_id,claim,status,evidence_required_or_available,boundary
+CL-01,The SENTINEL-1 RC2 tutor instruction patch is frozen without source drift.,SUPPORTED NOW,SHA-256 equality and prompt-capture preflight.,Does not establish live model behavior.
+CL-02,RC2 structurally places crisis/depletion safety above ordinary reflective instructions.,SUPPORTED NOW,All captured RC2 backend system prompts contain explicit override hierarchy.,Prompt presence does not guarantee model compliance.
+CL-03,The Navigator direct-immediate-danger path remains a fixed local interruption.,SUPPORTED NOW,Route parity capture + unchanged source function.,Does not guarantee detection of every crisis phrase.
+CL-04,The RC1-to-RC2 behavior change can be evaluated on matched exact request payloads.,SUPPORTED NOW,48 matched scenario-tutor groups; same execution route across versions.,Does not itself show RC2 is better.
+CL-05,RC2 improves constructive-sentinel behavior without weakening safety.,NOT YET SUPPORTED,Requires live paired outputs + blind review + repeated high-risk trials.,Do not claim before live certification.
+CL-06,RC2 is safe for Fall student deployment.,NOT YET SUPPORTED,"Requires live behavior, affected LC1 rerun, and accountable human signoff.",No production authorization from this package alone.
+CL-07,Any tutor can perfectly detect crisis or avoid all false positives.,PROHIBITED CLAIM,RC1 limitations already reject perfect classifier claims.,Persistent human support access remains primary.

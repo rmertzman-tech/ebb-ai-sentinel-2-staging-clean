@@ -1,0 +1,57 @@
+﻿index,relative_path,category,size_bytes,description
+0,01_Frozen_Builds/EBB-AI-SENTINEL-2_EXAMINED_RC1_BASELINE.zip,01_Frozen_Builds,36244,Frozen deployable/rollback archive
+1,01_Frozen_Builds/EBB-AI-SENTINEL-2_EXAMINED_RC2_FROZEN_CANDIDATE.zip,01_Frozen_Builds,38287,Frozen deployable/rollback archive
+2,01_Frozen_Builds/EBB-AI-SENTINEL-2_NAVIGATOR_RC1_BASELINE.zip,01_Frozen_Builds,220705,Frozen deployable/rollback archive
+3,01_Frozen_Builds/EBB-AI-SENTINEL-2_NAVIGATOR_RC2_FROZEN_CANDIDATE.zip,01_Frozen_Builds,224346,Frozen deployable/rollback archive
+4,02_Principal/EBB-AI-SENTINEL-2_Blind_Tutor_Response_Review_Rubric.docx,02_Principal,39828,"Principal report, decision memo, or review rubric"
+5,02_Principal/EBB-AI-SENTINEL-2_Blind_Tutor_Response_Review_Rubric.pdf,02_Principal,68980,"Principal report, decision memo, or review rubric"
+6,02_Principal/EBB-AI-SENTINEL-2_Live_Paired_Tutor_Certification_and_Safety_Override_Validation_Report.docx,02_Principal,43630,"Principal report, decision memo, or review rubric"
+7,02_Principal/EBB-AI-SENTINEL-2_Live_Paired_Tutor_Certification_and_Safety_Override_Validation_Report.pdf,02_Principal,126059,"Principal report, decision memo, or review rubric"
+8,02_Principal/EBB-AI-SENTINEL-2_RC2_Release_Freeze_and_Fall_Deployment_Decision_Memo.docx,02_Principal,39551,"Principal report, decision memo, or review rubric"
+9,02_Principal/EBB-AI-SENTINEL-2_RC2_Release_Freeze_and_Fall_Deployment_Decision_Memo.pdf,02_Principal,67902,"Principal report, decision memo, or review rubric"
+10,03_Live_Certification/EBB-AI-SENTINEL-2_CAPTURED_REQUESTS.jsonl,03_Live_Certification,887149,"Live-certification runner, reviewer, corpus, or captured request evidence"
+11,03_Live_Certification/EBB-AI-SENTINEL-2_PAIRED_BEHAVIOR_REGRESSION_CORPUS.csv,03_Live_Certification,8047,"Live-certification runner, reviewer, corpus, or captured request evidence"
+12,03_Live_Certification/blind_reviewer.html,03_Live_Certification,6037,"Live-certification runner, reviewer, corpus, or captured request evidence"
+13,03_Live_Certification/run_live_paired_certification.py,03_Live_Certification,9105,"Live-certification runner, reviewer, corpus, or captured request evidence"
+14,03_Live_Certification/run_sentinel2_preflight.py,03_Live_Certification,5988,"Live-certification runner, reviewer, corpus, or captured request evidence"
+15,03_Live_Certification/score_review.py,03_Live_Certification,2775,"Live-certification runner, reviewer, corpus, or captured request evidence"
+16,04_Registers/EBB-AI-SENTINEL-2_AFFECTED_LC1_RERUN_REGISTER.csv,04_Registers,1422,Structured release-control or certification register
+17,04_Registers/EBB-AI-SENTINEL-2_CAPTURED_REQUEST_REGISTER.csv,04_Registers,42500,Structured release-control or certification register
+18,04_Registers/EBB-AI-SENTINEL-2_CLAIM_LIMIT_REGISTER.csv,04_Registers,1506,Structured release-control or certification register
+19,04_Registers/EBB-AI-SENTINEL-2_FREEZE_HASH_REGISTER.csv,04_Registers,649,Structured release-control or certification register
+20,04_Registers/EBB-AI-SENTINEL-2_HIGH_RISK_REPEAT_PLAN.csv,04_Registers,2092,Structured release-control or certification register
+21,04_Registers/EBB-AI-SENTINEL-2_LIVE_RESULT_TEMPLATE.csv,04_Registers,8014,Structured release-control or certification register
+22,04_Registers/EBB-AI-SENTINEL-2_PREFLIGHT_TEST_RESULTS.csv,04_Registers,2169,Structured release-control or certification register
+23,04_Registers/EBB-AI-SENTINEL-2_RELEASE_GATE_REGISTER.csv,04_Registers,1506,Structured release-control or certification register
+24,04_Registers/EBB-AI-SENTINEL-2_REQUEST_DIFF_REGISTER.csv,04_Registers,9389,Structured release-control or certification register
+25,05_Workbook/EBB-AI-SENTINEL-2_LIVE_CERTIFICATION_AND_RELEASE_WORKBOOK.xlsx,05_Workbook,46437,Interactive live-certification and release-control workbook
+26,06_QA/EBB-AI-SENTINEL-2_BUILD_ENVIRONMENT_BACKEND_CHECK.json,06_QA,112,"QA, preflight, visual, accessibility, or environment record"
+27,06_QA/EBB-AI-SENTINEL-2_Blind_Tutor_Response_Review_Rubric_A11Y.json,06_QA,197,"QA, preflight, visual, accessibility, or environment record"
+28,06_QA/EBB-AI-SENTINEL-2_Blind_Tutor_Response_Review_Rubric_PDF_PREFLIGHT.txt,06_QA,195,"QA, preflight, visual, accessibility, or environment record"
+29,06_QA/EBB-AI-SENTINEL-2_DOCX_AND_FROZEN_ZIP_INTEGRITY.json,06_QA,940,"QA, preflight, visual, accessibility, or environment record"
+30,06_QA/EBB-AI-SENTINEL-2_FINAL_QA.txt,06_QA,3794,"QA, preflight, visual, accessibility, or environment record"
+31,06_QA/EBB-AI-SENTINEL-2_Live_Paired_Tutor_Certification_and_Safety_Override_Validation_Report_A11Y.json,06_QA,232,"QA, preflight, visual, accessibility, or environment record"
+32,06_QA/EBB-AI-SENTINEL-2_Live_Paired_Tutor_Certification_and_Safety_Override_Validation_Report_PDF_PREFLIGHT.txt,06_QA,230,"QA, preflight, visual, accessibility, or environment record"
+33,06_QA/EBB-AI-SENTINEL-2_PREFLIGHT_TEST_RESULTS.json,06_QA,3616,"QA, preflight, visual, accessibility, or environment record"
+34,06_QA/EBB-AI-SENTINEL-2_RC2_Release_Freeze_and_Fall_Deployment_Decision_Memo_A11Y.json,06_QA,215,"QA, preflight, visual, accessibility, or environment record"
+35,06_QA/EBB-AI-SENTINEL-2_RC2_Release_Freeze_and_Fall_Deployment_Decision_Memo_PDF_PREFLIGHT.txt,06_QA,213,"QA, preflight, visual, accessibility, or environment record"
+36,06_QA/EBB-AI-SENTINEL-2_WORKBOOK_DASHBOARD_PREVIEW.png,06_QA,278095,"QA, preflight, visual, accessibility, or environment record"
+37,06_QA/render_EBB-AI-SENTINEL-2_Blind_Tutor_Response_Review_Rubric/EBB-AI-SENTINEL-2_Blind_Tutor_Response_Review_Rubric.pdf,06_QA,68980,"QA, preflight, visual, accessibility, or environment record"
+38,06_QA/render_EBB-AI-SENTINEL-2_Blind_Tutor_Response_Review_Rubric/page-1.png,06_QA,341016,"QA, preflight, visual, accessibility, or environment record"
+39,06_QA/render_EBB-AI-SENTINEL-2_Blind_Tutor_Response_Review_Rubric/page-2.png,06_QA,156730,"QA, preflight, visual, accessibility, or environment record"
+40,06_QA/render_EBB-AI-SENTINEL-2_Live_Paired_Tutor_Certification_and_Safety_Override_Validation_Report/EBB-AI-SENTINEL-2_Live_Paired_Tutor_Certification_and_Safety_Override_Validation_Report.pdf,06_QA,126059,"QA, preflight, visual, accessibility, or environment record"
+41,06_QA/render_EBB-AI-SENTINEL-2_Live_Paired_Tutor_Certification_and_Safety_Override_Validation_Report/page-1.png,06_QA,433609,"QA, preflight, visual, accessibility, or environment record"
+42,06_QA/render_EBB-AI-SENTINEL-2_Live_Paired_Tutor_Certification_and_Safety_Override_Validation_Report/page-2.png,06_QA,416541,"QA, preflight, visual, accessibility, or environment record"
+43,06_QA/render_EBB-AI-SENTINEL-2_Live_Paired_Tutor_Certification_and_Safety_Override_Validation_Report/page-3.png,06_QA,409788,"QA, preflight, visual, accessibility, or environment record"
+44,06_QA/render_EBB-AI-SENTINEL-2_Live_Paired_Tutor_Certification_and_Safety_Override_Validation_Report/page-4.png,06_QA,409725,"QA, preflight, visual, accessibility, or environment record"
+45,06_QA/render_EBB-AI-SENTINEL-2_Live_Paired_Tutor_Certification_and_Safety_Override_Validation_Report/page-5.png,06_QA,229728,"QA, preflight, visual, accessibility, or environment record"
+46,06_QA/render_EBB-AI-SENTINEL-2_RC2_Release_Freeze_and_Fall_Deployment_Decision_Memo/EBB-AI-SENTINEL-2_RC2_Release_Freeze_and_Fall_Deployment_Decision_Memo.pdf,06_QA,67902,"QA, preflight, visual, accessibility, or environment record"
+47,06_QA/render_EBB-AI-SENTINEL-2_RC2_Release_Freeze_and_Fall_Deployment_Decision_Memo/page-1.png,06_QA,366449,"QA, preflight, visual, accessibility, or environment record"
+48,06_QA/render_EBB-AI-SENTINEL-2_RC2_Release_Freeze_and_Fall_Deployment_Decision_Memo/page-2.png,06_QA,149728,"QA, preflight, visual, accessibility, or environment record"
+49,07_Release_Notes/EBB-AI-SENTINEL-2_DEPLOYMENT_SEQUENCE.md,07_Release_Notes,3674,Deployment sequence or known-limitations release note
+50,07_Release_Notes/EBB-AI-SENTINEL-2_KNOWN_LIMITATIONS.md,07_Release_Notes,2255,Deployment sequence or known-limitations release note
+51,08_Source_Evidence/EBB-AI-SENTINEL-1_FINAL_QA.txt,08_Source_Evidence,2182,"QA, preflight, visual, accessibility, or environment record"
+52,08_Source_Evidence/EBB-AI-SENTINEL-2_INHERITED_TUTOR_CONSTITUTION.md,08_Source_Evidence,1759,Inherited source/release evidence used to govern build
+53,08_Source_Evidence/EBB-FALL-RC1_DEPLOYMENT_SEQUENCE.md,08_Source_Evidence,1031,Inherited source/release evidence used to govern build
+54,08_Source_Evidence/EBB-FALL-RC1_FINAL_QA.txt,08_Source_Evidence,2340,"QA, preflight, visual, accessibility, or environment record"
+55,EBB-AI-SENTINEL-2_README.md,Package root,2689,Package overview and current release decision

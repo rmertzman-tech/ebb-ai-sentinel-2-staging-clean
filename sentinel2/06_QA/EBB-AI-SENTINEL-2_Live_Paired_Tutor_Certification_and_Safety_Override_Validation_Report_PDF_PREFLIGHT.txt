@@ -1,0 +1,6 @@
+PDF: /mnt/data/EBB-AI-SENTINEL-2/02_Principal/EBB-AI-SENTINEL-2_Live_Paired_Tutor_Certification_and_Safety_Override_Validation_Report.pdf
+Pages: 5
+Encrypted: False
+Openable (PyMuPDF): True
+Likely scanned: False
+XFA present: False

@@ -1,0 +1,46 @@
+EBB-FALL-RC1 FINAL QA RECORD
+Generated: 2026-08-04
+
+RELEASE DECISION
+- CONDITIONAL GO for temporary test deployment only.
+- Student-URL promotion is blocked until launch-blocking manual gates pass or approved fallbacks are tested and recorded.
+
+AUTOMATED / RECORDED GATES
+- Automated PASS: 16
+- User-confirmed recent live workflows: 2
+- Open manual/live gates: 20
+- Manual checkpoint gate: 1
+- Total registered gates: 39
+
+APP SOURCE QA
+- Examined build identity: examined-fall-2026-rc1
+- Navigator build identity: navigator-fall-2026-rc1
+- Examined passive Google Fonts request removed.
+- AI fetches use credentials omit, cache no-store, no-referrer, and timeout controls.
+- Navigator remote third-party QR generation removed; six-character transfer code is rendered locally.
+- PRF import and multi-format merge adapters preserved.
+- Cross-app first merge and repeated duplicate-safe merge passed with synthetic fixture.
+- Full-record Examined restore passed with all major record families populated.
+
+DOCUMENT QA
+- Student Quick Start: 3 pages, DOCX render inspected page by page, PDF preflight passed.
+- Instructor Launch Guide: 5 pages, DOCX render inspected page by page, PDF preflight passed.
+- Development and Launch Report: 10 pages, DOCX render inspected page by page, PDF preflight passed.
+- DOCX accessibility audits: 0 high, 0 medium, 0 low findings for all three documents.
+- PDF files are openable, unencrypted, text-based, and non-XFA.
+
+SPREADSHEET QA
+- Workbook created with artifact_tool.
+- Dashboard, Launch Gates, Privacy, Accessibility, Devices, and Canvas sheets present.
+- Formula-error scan found 0 matches.
+- Dashboard status counts reconcile to launch-gate register.
+
+PRIVACY / FIXTURE QA
+- Distributed restore and transfer fixtures are synthetic.
+- User-provided real backup and autobiographical source files are excluded.
+- Package scan performed for unique private-source phrases; no matches permitted.
+
+OPEN CLAIM BOUNDARIES
+- Live proxy operator/configuration/logging/retention/deletion/outage behavior not independently verified.
+- Physical devices, screen readers, Canvas, installed PWA, service-worker update, offline reopen, one-time sync, and rollback drill remain manual gates.
+- Crisis handling cannot guarantee perfect detection or zero false positives; persistent human support access remains primary.

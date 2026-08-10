@@ -1,0 +1,37 @@
+[
+  {
+    "file": "EBB-AI-SENTINEL-2_Blind_Tutor_Response_Review_Rubric.docx",
+    "zip_and_reopen": "PASS",
+    "errors": []
+  },
+  {
+    "file": "EBB-AI-SENTINEL-2_Live_Paired_Tutor_Certification_and_Safety_Override_Validation_Report.docx",
+    "zip_and_reopen": "PASS",
+    "errors": []
+  },
+  {
+    "file": "EBB-AI-SENTINEL-2_RC2_Release_Freeze_and_Fall_Deployment_Decision_Memo.docx",
+    "zip_and_reopen": "PASS",
+    "errors": []
+  },
+  {
+    "file": "EBB-AI-SENTINEL-2_EXAMINED_RC1_BASELINE.zip",
+    "zip_integrity": "PASS",
+    "bad_member": null
+  },
+  {
+    "file": "EBB-AI-SENTINEL-2_EXAMINED_RC2_FROZEN_CANDIDATE.zip",
+    "zip_integrity": "PASS",
+    "bad_member": null
+  },
+  {
+    "file": "EBB-AI-SENTINEL-2_NAVIGATOR_RC1_BASELINE.zip",
+    "zip_integrity": "PASS",
+    "bad_member": null
+  },
+  {
+    "file": "EBB-AI-SENTINEL-2_NAVIGATOR_RC2_FROZEN_CANDIDATE.zip",
+    "zip_integrity": "PASS",
+    "bad_member": null
+  }
+]
