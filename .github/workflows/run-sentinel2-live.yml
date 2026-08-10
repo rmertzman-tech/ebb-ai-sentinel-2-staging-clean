@@ -1,0 +1,122 @@
+name: Run SENTINEL-2 Live Certification
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Certification mode"
+        required: true
+        default: full
+        type: choice
+        options:
+          - full
+          - quick
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sentinel2-live-certification
+  cancel-in-progress: false
+
+jobs:
+  certify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Verify certification inputs
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+
+          base = Path("sentinel2/03_Live_Certification")
+
+          required = [
+              base / "run_live_paired_certification.py",
+              base / "EBB-AI-SENTINEL-2_CAPTURED_REQUESTS.jsonl",
+              base / "EBB-AI-SENTINEL-2_PAIRED_BEHAVIOR_REGRESSION_CORPUS.csv",
+              base / "blind_reviewer.html",
+              base / "score_review.py",
+          ]
+
+          missing = [str(p) for p in required if not p.exists()]
+          if missing:
+              raise SystemExit(
+                  "Missing required certification files:\n" +
+                  "\n".join(missing)
+              )
+
+          captured = base / "EBB-AI-SENTINEL-2_CAPTURED_REQUESTS.jsonl"
+          records = [
+              json.loads(line)
+              for line in captured.read_text(encoding="utf-8").splitlines()
+              if line.strip()
+          ]
+
+          print(f"Captured request records: {len(records)}")
+
+          if len(records) != 96:
+              raise SystemExit(
+                  f"Expected 96 frozen captured request records; found {len(records)}."
+              )
+
+          versions = sorted({r.get("version") for r in records})
+          tutors = sorted({r.get("tutor") for r in records})
+          scenarios = sorted({r.get("scenario_id") for r in records})
+
+          print("Versions:", versions)
+          print("Tutors:", tutors)
+          print("Scenario count:", len(scenarios))
+
+          if versions != ["baseline_rc1", "candidate_rc2"]:
+              raise SystemExit(f"Unexpected version set: {versions}")
+
+          if len(scenarios) != 24:
+              raise SystemExit(
+                  f"Expected 24 scenarios; found {len(scenarios)}."
+              )
+
+          print("Certification-input verification PASS.")
+          PY
+
+      - name: Run paired live certification
+        working-directory: sentinel2/03_Live_Certification
+        run: |
+          python run_live_paired_certification.py \
+            --mode "${{ inputs.mode }}"
+
+      - name: Upload blind-review package
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: sentinel2-blind-review
+          retention-days: 7
+          if-no-files-found: warn
+          path: |
+            sentinel2/03_Live_Certification/live_results/EBB-AI-SENTINEL-2_BLIND_REVIEW_INPUT.json
+            sentinel2/03_Live_Certification/blind_reviewer.html
+
+      - name: Upload custodian results
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: sentinel2-custodian-results
+          retention-days: 7
+          if-no-files-found: warn
+          path: |
+            sentinel2/03_Live_Certification/live_results/EBB-AI-SENTINEL-2_BLIND_KEY.csv
+            sentinel2/03_Live_Certification/live_results/EBB-AI-SENTINEL-2_LIVE_RESPONSES.jsonl
+            sentinel2/03_Live_Certification/live_results/EBB-AI-SENTINEL-2_LIVE_RESPONSES.csv
+            sentinel2/03_Live_Certification/live_results/EBB-AI-SENTINEL-2_LIVE_RUN_SUMMARY.json
+            sentinel2/03_Live_Certification/live_results/backend_reachability.json
+            sentinel2/03_Live_Certification/live_results/LIVE_RESPONSES_CHECKPOINT.jsonl
