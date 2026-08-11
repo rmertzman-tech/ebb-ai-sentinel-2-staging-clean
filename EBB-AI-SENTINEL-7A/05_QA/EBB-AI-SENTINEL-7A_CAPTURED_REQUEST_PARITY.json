@@ -1,0 +1,119 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "source_rc24_rows_48",
+      "status": "PASS",
+      "detail": "48"
+    },
+    {
+      "check": "paired_output_rows_96",
+      "status": "PASS",
+      "detail": "96"
+    },
+    {
+      "check": "baseline_rows_48",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "candidate_rows_48",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "scenario_tutor_pairs_48",
+      "status": "PASS",
+      "detail": "48"
+    },
+    {
+      "check": "backend_pairs_47",
+      "status": "PASS",
+      "detail": "47"
+    },
+    {
+      "check": "local_pairs_1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "check": "route_parity_48",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "backend_system_changed_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "backend_non_system_payload_same_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "model_same_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "max_tokens_same_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "messages_same_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "synthetic_user_message_same_48",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "local_result_same",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "candidate_post_safety_lock_present_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "candidate_deletion_gate_present_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "baseline_new_blocks_absent_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "candidate_system_exact_transform",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "payload_hashes_self_consistent",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "p06a_navigator_local_byte_identical",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "external_completion_token_not_injected",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "captured_requests_sha256": "74149d5b0d1aae41ae2a907f1f1def29693fe54614fa923c5d1c2015a38808e5",
+  "backend_pairs": 47,
+  "local_pairs": 1,
+  "system_only_backend_pairs": 47
+}

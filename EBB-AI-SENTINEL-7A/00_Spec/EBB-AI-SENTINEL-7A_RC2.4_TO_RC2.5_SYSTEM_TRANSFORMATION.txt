@@ -1,0 +1,22 @@
+EBB-AI-SENTINEL-7A — RC2.4 TO RC2.5 SYSTEM-ONLY REQUEST TRANSFORMATION
+
+Source request skeleton:
+- exact RC2.4 candidate primary records from SENTINEL-6A
+- re-labeled baseline_rc2_4 without changing backend payload values
+
+Candidate transformation:
+- clone each exact RC2.4 backend payload
+- replace only payload.system by inserting the two exact RC2.5 frozen instruction blocks:
+  1. POST-SAFETY CLARIFICATION LOCK — PHASE-STATE INVARIANT
+  2. UNSUPPORTED-MECHANISM DELETION GATE — ANCHOR OR DELETE
+- preserve model, max_tokens, messages, route, synthetic user message, required behavior, failure target, and all other payload fields
+- preserve Navigator P06-A fixed local interruption byte-for-byte
+- do not inject SAFETY_COMPLETION_CONFIRMED=TRUE into user/messages or any separate runtime field
+
+Frozen identities:
+RC2.4 Examined SHA256 6846a32d9c0b09285ca9c4657c6f2a30d925244bde19fe6490bee2614f0fea57
+RC2.4 Navigator SHA256 6792f7ee33b702631a1bfb595b43ec12f032900b81a2afb6feda5b208ddbbb75
+RC2.5 Examined SHA256 c1c06769f78087986972fcbbe0754964dac682b8d08203f9ecc5631292133d19
+RC2.5 Navigator SHA256 67312af0bbee3411de478cff17657273d6f05c5dcb87b45f5e86ad0a2c40a198
+
+This is a production-compatible source-locked reconstruction, not a fresh browser capture.
