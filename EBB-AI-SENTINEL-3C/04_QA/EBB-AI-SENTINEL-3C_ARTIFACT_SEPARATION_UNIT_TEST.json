@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "fixture_is_live_behavior": false,
+  "validator_exit": 0,
+  "packager_exit": 0,
+  "separation_receipt": {
+    "blind_zip": "sentinel3c-blind-review.zip",
+    "blind_zip_sha256": "70cd5d5d387058b761a5b0a29cca30b8e8cd34c3e062199dd6efeb875ff9a2a7",
+    "custodian_zip": "sentinel3c-custodian-results.zip",
+    "custodian_zip_sha256": "df97c5b562fdaf75bae57a893cd279e23476d2ef289508f0c03d192e557d76d3",
+    "blind_records": 147,
+    "separation_check": "PASS"
+  }
+}

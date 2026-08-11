@@ -1,0 +1,23 @@
+{
+  "package": "EBB-AI-SENTINEL-3B_HARNESS_AND_REQUEST_LOCK.zip",
+  "sha256": "9c4318232415a9cfc1e593539c8866ebd175314929f3d922749c9e601e74551f",
+  "size_bytes": 750404,
+  "github_staging_package": "EBB-AI-SENTINEL-3B_GITHUB_STAGING_READY.zip",
+  "github_staging_sha256": "733b2f5a2f6b4319724d18819eff0cf9a298ad77e4ad7cb898160ec00b1b90e7",
+  "github_staging_size_bytes": 751152,
+  "captured_request_verification": "12/12 PASS",
+  "preflight": "21/21 PASS",
+  "inherited_function_invariance": "14/14 PASS",
+  "paired_primary_records": 96,
+  "candidate_repeat_records": 51,
+  "total_live_plan_records": 147,
+  "candidate_repeat_groups": 17,
+  "strict_blind_fields_hidden": [
+    "version",
+    "trial",
+    "phase"
+  ],
+  "browser_functional_regression": "NOT RE-EXECUTED - environment administrator block",
+  "live_behavior": "PENDING",
+  "student_promotion": "HOLD"
+}

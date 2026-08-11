@@ -1,0 +1,43 @@
+EBB-AI-SENTINEL-3A FINAL QA
+Date: 2026-08-10
+
+DECISION
+- Source application: PASS
+- Minimal-diff lock: PASS
+- Static contract: 21/21 PASS
+- Executable static lock: 22/22 PASS
+- Browser / inherited headless functional regression: NOT EXECUTED IN THIS ENVIRONMENT (administrator blocks local/file navigation)
+- Live model behavioral certification: PENDING
+- Student promotion: HOLD
+
+SOURCE CONTROL
+- Sentinel-2 package SHA256: 9a5ad133cab6cce44194f9a556f7a143963ed32df437377e3bfeb72f81cbb1a9
+- Examined RC2 baseline SHA256: 8cef138c4407923df638b127a60d9a0d463b044fd96b87b062761d599591f00f
+- Navigator RC2 baseline SHA256: 09e215fec74b6f6850b5fa943032c3252a3198198eeb49bdf84483f1e4e62303
+
+RC2.1 FREEZE
+- Examined RC2.1 SHA256: fde71485742c3f62e0853a6fb62f52c1c37d79dff16ff8126a26098b6310f433
+- Navigator RC2.1 SHA256: 49b33e56524441c8c4deaf1f8ac6c420ea5ed19e179bab8d1d02e5f68ffc991d
+
+MINIMAL DIFF
+- Examined changed paths: index.html; added RC2.1 release note.
+- Navigator changed paths: index.html; sw.js cache identity; manifest.json description; added RC2.1 release note.
+- All other deployable files: byte-identical to RC2.
+- Navigator fixed local safety function block: byte-identical before/after; SHA256 6a72cc08d53efc63b2ae483420370239517b7260b5b6a6917001e176969d2bdc.
+- Storage/network signature counts: unchanged.
+
+PROMPT LOCK
+- Both actual prompt constructors execute under controlled Node context.
+- Required order verified: Safety Override -> Failure-Localized Evidence Discipline -> Ordinary Constructive-Sentinel Constitution.
+- Safety phase lock, depletion non-intensification, evidence-bound inference, reopening without replacement, explicit-request contract, and mechanism-first inquiry are all present.
+- Examined acute-depletion prompt no longer tells the model to validate “low coherence.”
+
+DETERMINISTIC SAFETY FIXTURES
+- Immediate danger: detected.
+- Direct self-harm: detected.
+- “statistics exam is killing me, but I am okay”: not detected.
+- “trapped by impossible project deadline, not unsafe”: not detected.
+- Fixed local message still contains ordinary-reflection stop, 911, and 988.
+
+EVIDENCE BOUNDARY
+This QA establishes source/static correctness only. It does not establish live LLM obedience or Fall deployment eligibility. Browser-level inherited regression and production-compatible live RC2-vs-RC2.1 certification remain required.

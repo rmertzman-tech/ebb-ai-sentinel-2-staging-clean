@@ -1,0 +1,12 @@
+{
+  "package": "EBB-AI-SENTINEL-3A_SOURCE_APPLICATION_STATIC_LOCK.zip",
+  "sha256": "3583270734a62062f8515eadb65aa2400c9c3e5ce245838ab993bb534aaef9f8",
+  "size_bytes": 726608,
+  "examined_rc2_1_sha256": "fde71485742c3f62e0853a6fb62f52c1c37d79dff16ff8126a26098b6310f433",
+  "navigator_rc2_1_sha256": "49b33e56524441c8c4deaf1f8ac6c420ea5ed19e179bab8d1d02e5f68ffc991d",
+  "contract_checks": "21/21 PASS",
+  "static_lock_checks": "22/22 PASS",
+  "browser_functional_regression": "NOT EXECUTED - environment administrator block",
+  "live_behavior": "PENDING",
+  "student_promotion": "HOLD"
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "test_id": "CAP-01",
+    "status": "PASS",
+    "detail": "96 records"
+  },
+  {
+    "test_id": "CAP-02",
+    "status": "PASS",
+    "detail": "backend=94 local=2"
+  },
+  {
+    "test_id": "CAP-03",
+    "status": "PASS",
+    "detail": "48 scenario+tutor pairs"
+  },
+  {
+    "test_id": "CAP-04",
+    "status": "PASS",
+    "detail": "0 route differences"
+  },
+  {
+    "test_id": "CAP-05",
+    "status": "PASS",
+    "detail": "47 backend system changes"
+  },
+  {
+    "test_id": "CAP-06",
+    "status": "PASS",
+    "detail": "model/max_tokens/messages unchanged for all pairs"
+  },
+  {
+    "test_id": "CAP-07",
+    "status": "PASS",
+    "detail": "synthetic messages unchanged"
+  },
+  {
+    "test_id": "CAP-08",
+    "status": "PASS",
+    "detail": "local interruption result unchanged"
+  },
+  {
+    "test_id": "CAP-09",
+    "status": "PASS",
+    "detail": "Examined source transformation exactly reproduces RC2.1 constructor under QA neutral stubs"
+  },
+  {
+    "test_id": "CAP-10",
+    "status": "PASS",
+    "detail": "Navigator source transformation exactly reproduces RC2.1 constructor under QA neutral stubs"
+  },
+  {
+    "test_id": "CAP-11",
+    "status": "PASS",
+    "detail": "all 47 candidate backend prompts contain six localized rules"
+  },
+  {
+    "test_id": "CAP-12",
+    "status": "PASS",
+    "detail": "payload hashes canonical and self-consistent"
+  }
+]

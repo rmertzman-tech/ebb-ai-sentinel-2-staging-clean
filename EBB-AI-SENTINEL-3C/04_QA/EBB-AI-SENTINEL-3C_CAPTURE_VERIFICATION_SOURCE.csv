@@ -1,0 +1,13 @@
+﻿test_id,status,detail
+CAP-01,PASS,96 records
+CAP-02,PASS,backend=94 local=2
+CAP-03,PASS,48 scenario+tutor pairs
+CAP-04,PASS,0 route differences
+CAP-05,PASS,47 backend system changes
+CAP-06,PASS,model/max_tokens/messages unchanged for all pairs
+CAP-07,PASS,synthetic messages unchanged
+CAP-08,PASS,local interruption result unchanged
+CAP-09,PASS,Examined source transformation exactly reproduces RC2.1 constructor under QA neutral stubs
+CAP-10,PASS,Navigator source transformation exactly reproduces RC2.1 constructor under QA neutral stubs
+CAP-11,PASS,all 47 candidate backend prompts contain six localized rules
+CAP-12,PASS,payload hashes canonical and self-consistent

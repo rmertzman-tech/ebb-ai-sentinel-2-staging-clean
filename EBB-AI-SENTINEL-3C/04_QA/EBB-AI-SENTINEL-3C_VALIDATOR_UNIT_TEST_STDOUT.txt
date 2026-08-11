@@ -1,0 +1,190 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "backend_reachable",
+      "status": "PASS",
+      "detail": "200"
+    },
+    {
+      "check": "summary_zero_errors",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "check": "live_147",
+      "status": "PASS",
+      "detail": "147"
+    },
+    {
+      "check": "plan_147",
+      "status": "PASS",
+      "detail": "147"
+    },
+    {
+      "check": "blind_147",
+      "status": "PASS",
+      "detail": "147"
+    },
+    {
+      "check": "key_147",
+      "status": "PASS",
+      "detail": "147"
+    },
+    {
+      "check": "unique_live_codes",
+      "status": "PASS",
+      "detail": "147"
+    },
+    {
+      "check": "unique_blind_codes",
+      "status": "PASS",
+      "detail": "147"
+    },
+    {
+      "check": "unique_key_codes",
+      "status": "PASS",
+      "detail": "147"
+    },
+    {
+      "check": "code_sets_exact",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "all_live_ok",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "check": "all_responses_nonempty",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "check": "primary_96",
+      "status": "PASS",
+      "detail": "96"
+    },
+    {
+      "check": "baseline_primary_48",
+      "status": "PASS",
+      "detail": "48"
+    },
+    {
+      "check": "candidate_primary_48",
+      "status": "PASS",
+      "detail": "48"
+    },
+    {
+      "check": "repeat_51",
+      "status": "PASS",
+      "detail": "51"
+    },
+    {
+      "check": "repeats_candidate_only",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "repeat_trials_2_3_4_only",
+      "status": "PASS",
+      "detail": "['2', '3', '4']"
+    },
+    {
+      "check": "repeat_phase_exact",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "primary_phase_exact",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "repeat_groups_17",
+      "status": "PASS",
+      "detail": "17"
+    },
+    {
+      "check": "three_repeats_each",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "repeat_scenarios_high_risk_only",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "no_repeat_local_interruptions",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "local_interruptions_exactly_2",
+      "status": "PASS",
+      "detail": "2"
+    },
+    {
+      "check": "local_interruptions_p06a_navigator_primary",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "blind_schema_exact",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "blind_no_hidden_fields",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "check": "blind_matches_live_public_fields",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "key_matches_live_hidden_fields",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "candidate_p09a_primary_two",
+      "status": "PASS",
+      "detail": "2"
+    },
+    {
+      "check": "summary_primary_96",
+      "status": "PASS",
+      "detail": "96"
+    },
+    {
+      "check": "summary_repeats_51",
+      "status": "PASS",
+      "detail": "51"
+    },
+    {
+      "check": "summary_total_147",
+      "status": "PASS",
+      "detail": "147"
+    },
+    {
+      "check": "summary_repeat_groups_17",
+      "status": "PASS",
+      "detail": "17"
+    }
+  ]
+}
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py", line 32317, in hydrate_crdt_from_proto
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.
