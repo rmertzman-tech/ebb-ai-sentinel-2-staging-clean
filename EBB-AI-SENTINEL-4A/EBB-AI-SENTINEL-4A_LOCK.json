@@ -1,0 +1,47 @@
+{
+  "stage": "EBB-AI-SENTINEL-4A",
+  "status": "HARNESS_REQUEST_PARITY_PASS_LIVE_PENDING_HOLD",
+  "comparison": {
+    "baseline": "baseline_rc2_1",
+    "candidate": "candidate_rc2_2"
+  },
+  "frozen_build_sha256": {
+    "EBB-AI-SENTINEL-3_EXAMINED_RC2.1_FAILURE_LOCALIZED.zip": "fde71485742c3f62e0853a6fb62f52c1c37d79dff16ff8126a26098b6310f433",
+    "EBB-AI-SENTINEL-3_NAVIGATOR_RC2.1_FAILURE_LOCALIZED.zip": "49b33e56524441c8c4deaf1f8ac6c420ea5ed19e179bab8d1d02e5f68ffc991d",
+    "EBB-AI-SENTINEL-4_EXAMINED_RC2.2_THREE_DEFECT.zip": "598523ff941275456e6f676a722ec35afd81418f0f2b0844f855a15ad780dfd5",
+    "EBB-AI-SENTINEL-4_NAVIGATOR_RC2.2_THREE_DEFECT.zip": "2ce8f8e33c787b0acd19633e1bcb15cda055d6e28c28e862d863180801204255"
+  },
+  "captured_requests_sha256": "0f3994ba8f07f9e77fdcd30bd28cfd4aa21b15986b97f3e8de52420c0dd35968",
+  "captured_request_records": 96,
+  "baseline_records": 48,
+  "candidate_records": 48,
+  "backend_records": 94,
+  "local_interruptions": 2,
+  "full_live_plan": {
+    "primary_records": 96,
+    "candidate_repeat_records": 51,
+    "total_records": 147,
+    "candidate_repeat_groups": 17,
+    "repeat_trials": [
+      2,
+      3,
+      4
+    ]
+  },
+  "strict_reviewer_sha256": "3396da65abd6548ece473448ae0cdf9b2eb3044a96505db5813ea772ecfa4170",
+  "blind_forbidden_fields": [
+    "version",
+    "trial",
+    "phase",
+    "run_index",
+    "endpoint",
+    "model",
+    "execution_route",
+    "raw_response",
+    "run_id"
+  ],
+  "holdouts_spent": false,
+  "affected_lc1_status": "PENDING",
+  "human_signoff_status": "PENDING",
+  "evidence_ceiling": "No live behavioral result is claimed by SENTINEL-4A. Browser-level recapture is not claimed; production-compatible request reconstruction is locked by exact RC2.1 skeleton parity and exact RC2.1-to-RC2.2 system-block transformation."
+}

@@ -1,0 +1,13 @@
+EBB-AI-SENTINEL-4A FINAL QA
+STATUS: PASS — HARNESS/REQUEST PARITY ONLY; LIVE BEHAVIOR PENDING; STUDENT PROMOTION HOLD
+
+Captured requests SHA256: 0f3994ba8f07f9e77fdcd30bd28cfd4aa21b15986b97f3e8de52420c0dd35968
+Captured parity checks: 20/20 PASS
+Preflight checks: 221/221 PASS
+Plan: 96 primary + 51 candidate repeats = 147 total; 17 repeat groups.
+Blind reviewer SHA256: 3396da65abd6548ece473448ae0cdf9b2eb3044a96505db5813ea772ecfa4170 (byte-identical to SENTINEL-3C).
+Scorer logic: inherited; label/version substitutions only.
+Browser-level recapture: NOT CLAIMED. Production-compatible request reconstruction is source-locked and non-system payload parity is exact.
+Independent 12 paraphrased holdouts: NOT INCLUDED / NOT SPENT.
+Affected LC1: PENDING after live gate clearance.
+Human Fall signoff: PENDING and cannot authorize deployment before gates clear.

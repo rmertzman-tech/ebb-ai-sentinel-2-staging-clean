@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "source_rc21_rows_48",
+      "status": "PASS",
+      "detail": "48"
+    },
+    {
+      "check": "paired_output_rows_96",
+      "status": "PASS",
+      "detail": "96"
+    },
+    {
+      "check": "baseline_rows_48",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "candidate_rows_48",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "scenario_tutor_pairs_48",
+      "status": "PASS",
+      "detail": "48"
+    },
+    {
+      "check": "backend_pairs_47",
+      "status": "PASS",
+      "detail": "47"
+    },
+    {
+      "check": "local_pairs_1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "check": "route_parity_48",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "backend_system_changed_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "backend_non_system_payload_same_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "model_same_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "max_tokens_same_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "messages_same_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "synthetic_user_message_same_48",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "local_result_same",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "rc21_block_matches_both_sources",
+      "status": "PASS",
+      "detail": "71dc92eb08be9050d553406624a5eacf092ff43df91b58092f953e919214e9ae"
+    },
+    {
+      "check": "rc22_block_matches_both_sources",
+      "status": "PASS",
+      "detail": "0f1e5ea1a5359994f7592e30fd488e21875c5abb7b185cc92eb1566cb2411105"
+    },
+    {
+      "check": "candidate_system_exact_transform",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "baseline_system_exact_rc21",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "payload_hashes_self_consistent",
+      "status": "PASS",
+      "detail": ""
+    }
+  ]
+}
