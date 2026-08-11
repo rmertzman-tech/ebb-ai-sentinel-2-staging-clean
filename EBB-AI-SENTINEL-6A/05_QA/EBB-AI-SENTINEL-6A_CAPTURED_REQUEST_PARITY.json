@@ -1,0 +1,126 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "source_rc23_rows_48",
+      "status": "PASS",
+      "detail": "48"
+    },
+    {
+      "check": "paired_output_rows_96",
+      "status": "PASS",
+      "detail": "96"
+    },
+    {
+      "check": "baseline_rows_48",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "candidate_rows_48",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "scenario_tutor_pairs_48",
+      "status": "PASS",
+      "detail": "48"
+    },
+    {
+      "check": "backend_pairs_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "local_pairs_1",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_parity_48",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "backend_system_changed_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "backend_non_system_payload_same_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "model_same_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "max_tokens_same_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "messages_same_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "synthetic_user_message_same_48",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "local_result_same",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "rc23_examined_block_source_locked",
+      "status": "PASS",
+      "detail": "4ed370b1d77e547a2a7a70fd31f3016c0d16a1362b643f98c248d177a637a34f"
+    },
+    {
+      "check": "rc23_navigator_block_source_locked",
+      "status": "PASS",
+      "detail": "ed44f9839234fa067a950c2bde6a2bebd6d5264eb00b91f160c84a588c257bbf"
+    },
+    {
+      "check": "rc24_examined_block_source_locked",
+      "status": "PASS",
+      "detail": "8ee00830ff90b3027e4413502dfef45e787bef047e673da7a422cfa18db344c9"
+    },
+    {
+      "check": "rc24_navigator_block_source_locked",
+      "status": "PASS",
+      "detail": "c79ee456459813f846838cf9cfb2e73a01bdbe8c67ed81670a463521dad8ed62"
+    },
+    {
+      "check": "candidate_system_exact_transform",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "baseline_system_exact_rc23",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "payload_hashes_self_consistent",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "p06a_navigator_local_byte_identical",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "external_completion_token_not_injected",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "captured_requests_sha256": "8b9be501a37887b9fc1eb1864040a863936c6fb14a84d9420470402611327697"
+}

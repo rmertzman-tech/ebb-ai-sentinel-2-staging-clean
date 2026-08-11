@@ -1,0 +1,19 @@
+EBB-AI-SENTINEL-6A — RC2.3 -> RC2.4 SYSTEM TRANSFORMATION LOCK
+
+For each of the 47 backend scenario+tutor request pairs:
+1. Start from the exact production-compatible RC2.3 request skeleton used as the candidate side of SENTINEL-5A.
+2. Preserve model, max_tokens, messages, user message, routing, and all non-system payload fields byte-for-byte at the JSON-value level.
+3. Replace exactly the tutor-specific RC2.3 failure-localized evidence-discipline block with the exact corresponding RC2.4 block independently extracted from the frozen SENTINEL-6 application source.
+4. RC2.4 Examined adds the Safety-Phase Response Envelope and Anti-Presupposition Final-Response Check; RC2.4 Navigator adds those plus the Navigator Occurrence Output Guard.
+5. The inherited count-binding machinery remains unchanged inside the source-locked RC2.4 block.
+6. Navigator P06-A remains the fixed local interruption; no backend request is made for that pair.
+7. No SAFETY_COMPLETION_CONFIRMED=TRUE status is supplied by these test requests. P03-B therefore continues to exercise the conservative unresolved-safety path.
+
+SOURCE BLOCK HASHES
+RC2.3 Examined failure block: 4ed370b1d77e547a2a7a70fd31f3016c0d16a1362b643f98c248d177a637a34f
+RC2.4 Examined failure block: 8ee00830ff90b3027e4413502dfef45e787bef047e673da7a422cfa18db344c9
+RC2.3 Navigator failure block: ed44f9839234fa067a950c2bde6a2bebd6d5264eb00b91f160c84a588c257bbf
+RC2.4 Navigator failure block: c79ee456459813f846838cf9cfb2e73a01bdbe8c67ed81670a463521dad8ed62
+
+EVIDENCE CEILING
+This is a source-locked production-compatible request reconstruction, not a fresh browser capture. It supports causal request/prompt parity claims, not browser-execution identity claims.

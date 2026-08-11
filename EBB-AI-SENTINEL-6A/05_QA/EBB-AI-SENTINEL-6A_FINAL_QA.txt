@@ -1,0 +1,168 @@
+EBB-AI-SENTINEL-6A FINAL QA
+Date: 2026-08-11
+
+DECISION
+READY FOR LIVE EXECUTION / HOLD FOR STUDENTS
+
+QA RESULT: 147/147 PASS
+
+Captured requests SHA-256: 8b9be501a37887b9fc1eb1864040a863936c6fb14a84d9420470402611327697
+Strict reviewer SHA-256: 3396da65abd6548ece473448ae0cdf9b2eb3044a96505db5813ea772ecfa4170
+RC2.3 Examined SHA-256: 0f974d82daba8ed6847cd050d23d33339ebd3d07c069ff153faf58c0b4f84110
+RC2.3 Navigator SHA-256: 6359d7376027bc125551533309d47fa4a48e3c31bacbfe929f1809888acca8cd
+RC2.4 Examined SHA-256: 6846a32d9c0b09285ca9c4657c6f2a30d925244bde19fe6490bee2614f0fea57
+RC2.4 Navigator SHA-256: 6792f7ee33b702631a1bfb595b43ec12f032900b81a2afb6feda5b208ddbbb75
+
+LIVE CERTIFICATION: NOT RUN
+AFFECTED LC1: NOT RUN
+INDEPENDENT HOLDOUTS: NOT RUN / UNSPENT
+STUDENT PROMOTION: HOLD
+
+CHECKS
+PASS | RC2.3 Examined baseline hash exact | 0f974d82daba8ed6847cd050d23d33339ebd3d07c069ff153faf58c0b4f84110
+PASS | RC2.3 Navigator baseline hash exact | 6359d7376027bc125551533309d47fa4a48e3c31bacbfe929f1809888acca8cd
+PASS | RC2.4 Examined candidate hash exact | 6846a32d9c0b09285ca9c4657c6f2a30d925244bde19fe6490bee2614f0fea57
+PASS | RC2.4 Navigator candidate hash exact | 6792f7ee33b702631a1bfb595b43ec12f032900b81a2afb6feda5b208ddbbb75
+PASS | captured requests hash locked | 8b9be501a37887b9fc1eb1864040a863936c6fb14a84d9420470402611327697
+PASS | strict reviewer hash inherited exact | 3396da65abd6548ece473448ae0cdf9b2eb3044a96505db5813ea772ecfa4170
+PASS | captured parity report PASS | 24
+PASS | preflight PASS | 222
+PASS | preflight all checks PASS | 222
+PASS | 96 captured rows | 
+PASS | 94 backend records | 
+PASS | 2 local records | 
+PASS | 47 backend pairs system-only | 
+PASS | 1 local pair identical | 
+PASS | plan 147 | 147
+PASS | plan 96 primary | 
+PASS | plan 51 repeats | 
+PASS | 17 repeat groups | 
+PASS | repeats candidate only | 
+PASS | repeats backend only | 
+PASS | no completion token injected into messages | 
+PASS | RC2.4 Examined safety envelope source exact | 
+PASS | RC2.4 Navigator safety envelope source exact | 
+PASS | RC2.4 Navigator occurrence guard source exact | 
+PASS | RC2.4 Examined excludes Navigator-only occurrence guard | 
+PASS | RC2.4 Examined anti-presupposition final check exact | 
+PASS | RC2.4 Navigator anti-presupposition final check exact | 
+PASS | synthetic 147 validation PASS | 
+PASS | synthetic separation PASS | 
+PASS | synthetic blind 147 | 
+PASS | workflow contains exact action name | 
+PASS | workflow points to 6A only | 
+PASS | scorer candidate labels RC2.4 | 
+PASS | scorer threshold unchanged | 
+PASS | scorer P09 gate unchanged | 
+PASS | student promotion remains HOLD | 
+PASS | holdouts remain unspent | 
+PASS | P06 local hash inherited in documentation | 6a72cc08d53efc63b2ae483420370239517b7260b5b6a6917001e176969d2bdc
+PASS | EBB-AI-SENTINEL-5_EXAMINED_RC2.3_RESIDUAL_DEFECT.zip no __MACOSX | 
+PASS | EBB-AI-SENTINEL-5_EXAMINED_RC2.3_RESIDUAL_DEFECT.zip no .DS_Store | 
+PASS | EBB-AI-SENTINEL-5_NAVIGATOR_RC2.3_RESIDUAL_DEFECT.zip no __MACOSX | 
+PASS | EBB-AI-SENTINEL-5_NAVIGATOR_RC2.3_RESIDUAL_DEFECT.zip no .DS_Store | 
+PASS | EBB-AI-SENTINEL-6_EXAMINED_RC2.4_STRUCTURAL_RESIDUAL.zip no __MACOSX | 
+PASS | EBB-AI-SENTINEL-6_EXAMINED_RC2.4_STRUCTURAL_RESIDUAL.zip no .DS_Store | 
+PASS | EBB-AI-SENTINEL-6_NAVIGATOR_RC2.4_STRUCTURAL_RESIDUAL.zip no __MACOSX | 
+PASS | EBB-AI-SENTINEL-6_NAVIGATOR_RC2.4_STRUCTURAL_RESIDUAL.zip no .DS_Store | 
+PASS | syntax run_live_paired_certification.py | 
+PASS | syntax run_sentinel6a_preflight.py | 
+PASS | syntax validate_live_results.py | 
+PASS | syntax package_separated_artifacts.py | 
+PASS | syntax score_review.py | 
+PASS | workflow YAML structural parse/check | 
+PASS | route parity P01-A Examined Companion | backend_request
+PASS | system-only change P01-A Examined Companion | 
+PASS | route parity P01-A Navigator Twin | backend_request
+PASS | system-only change P01-A Navigator Twin | 
+PASS | route parity P01-B Examined Companion | backend_request
+PASS | system-only change P01-B Examined Companion | 
+PASS | route parity P01-B Navigator Twin | backend_request
+PASS | system-only change P01-B Navigator Twin | 
+PASS | route parity P02-A Examined Companion | backend_request
+PASS | system-only change P02-A Examined Companion | 
+PASS | route parity P02-A Navigator Twin | backend_request
+PASS | system-only change P02-A Navigator Twin | 
+PASS | route parity P02-B Examined Companion | backend_request
+PASS | system-only change P02-B Examined Companion | 
+PASS | route parity P02-B Navigator Twin | backend_request
+PASS | system-only change P02-B Navigator Twin | 
+PASS | route parity P03-A Examined Companion | backend_request
+PASS | system-only change P03-A Examined Companion | 
+PASS | route parity P03-A Navigator Twin | backend_request
+PASS | system-only change P03-A Navigator Twin | 
+PASS | route parity P03-B Examined Companion | backend_request
+PASS | system-only change P03-B Examined Companion | 
+PASS | route parity P03-B Navigator Twin | backend_request
+PASS | system-only change P03-B Navigator Twin | 
+PASS | route parity P04-A Examined Companion | backend_request
+PASS | system-only change P04-A Examined Companion | 
+PASS | route parity P04-A Navigator Twin | backend_request
+PASS | system-only change P04-A Navigator Twin | 
+PASS | route parity P04-B Examined Companion | backend_request
+PASS | system-only change P04-B Examined Companion | 
+PASS | route parity P04-B Navigator Twin | backend_request
+PASS | system-only change P04-B Navigator Twin | 
+PASS | route parity P05-A Examined Companion | backend_request
+PASS | system-only change P05-A Examined Companion | 
+PASS | route parity P05-A Navigator Twin | backend_request
+PASS | system-only change P05-A Navigator Twin | 
+PASS | route parity P05-B Examined Companion | backend_request
+PASS | system-only change P05-B Examined Companion | 
+PASS | route parity P05-B Navigator Twin | backend_request
+PASS | system-only change P05-B Navigator Twin | 
+PASS | route parity P06-A Examined Companion | backend_request
+PASS | system-only change P06-A Examined Companion | 
+PASS | route parity P06-A Navigator Twin | local_interruption
+PASS | route parity P06-B Examined Companion | backend_request
+PASS | system-only change P06-B Examined Companion | 
+PASS | route parity P06-B Navigator Twin | backend_request
+PASS | system-only change P06-B Navigator Twin | 
+PASS | route parity P07-A Examined Companion | backend_request
+PASS | system-only change P07-A Examined Companion | 
+PASS | route parity P07-A Navigator Twin | backend_request
+PASS | system-only change P07-A Navigator Twin | 
+PASS | route parity P07-B Examined Companion | backend_request
+PASS | system-only change P07-B Examined Companion | 
+PASS | route parity P07-B Navigator Twin | backend_request
+PASS | system-only change P07-B Navigator Twin | 
+PASS | route parity P08-A Examined Companion | backend_request
+PASS | system-only change P08-A Examined Companion | 
+PASS | route parity P08-A Navigator Twin | backend_request
+PASS | system-only change P08-A Navigator Twin | 
+PASS | route parity P08-B Examined Companion | backend_request
+PASS | system-only change P08-B Examined Companion | 
+PASS | route parity P08-B Navigator Twin | backend_request
+PASS | system-only change P08-B Navigator Twin | 
+PASS | route parity P09-A Examined Companion | backend_request
+PASS | system-only change P09-A Examined Companion | 
+PASS | route parity P09-A Navigator Twin | backend_request
+PASS | system-only change P09-A Navigator Twin | 
+PASS | route parity P09-B Examined Companion | backend_request
+PASS | system-only change P09-B Examined Companion | 
+PASS | route parity P09-B Navigator Twin | backend_request
+PASS | system-only change P09-B Navigator Twin | 
+PASS | route parity P10-A Examined Companion | backend_request
+PASS | system-only change P10-A Examined Companion | 
+PASS | route parity P10-A Navigator Twin | backend_request
+PASS | system-only change P10-A Navigator Twin | 
+PASS | route parity P10-B Examined Companion | backend_request
+PASS | system-only change P10-B Examined Companion | 
+PASS | route parity P10-B Navigator Twin | backend_request
+PASS | system-only change P10-B Navigator Twin | 
+PASS | route parity P11-A Examined Companion | backend_request
+PASS | system-only change P11-A Examined Companion | 
+PASS | route parity P11-A Navigator Twin | backend_request
+PASS | system-only change P11-A Navigator Twin | 
+PASS | route parity P11-B Examined Companion | backend_request
+PASS | system-only change P11-B Examined Companion | 
+PASS | route parity P11-B Navigator Twin | backend_request
+PASS | system-only change P11-B Navigator Twin | 
+PASS | route parity P12-A Examined Companion | backend_request
+PASS | system-only change P12-A Examined Companion | 
+PASS | route parity P12-A Navigator Twin | backend_request
+PASS | system-only change P12-A Navigator Twin | 
+PASS | route parity P12-B Examined Companion | backend_request
+PASS | system-only change P12-B Examined Companion | 
+PASS | route parity P12-B Navigator Twin | backend_request
+PASS | system-only change P12-B Navigator Twin | 
