@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "source_rc22_rows_48",
+      "status": "PASS",
+      "detail": "48"
+    },
+    {
+      "check": "paired_output_rows_96",
+      "status": "PASS",
+      "detail": "96"
+    },
+    {
+      "check": "baseline_rows_48",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "candidate_rows_48",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "scenario_tutor_pairs_48",
+      "status": "PASS",
+      "detail": "48"
+    },
+    {
+      "check": "backend_pairs_47",
+      "status": "PASS",
+      "detail": "47"
+    },
+    {
+      "check": "local_pairs_1",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "check": "route_parity_48",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "backend_system_changed_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "backend_non_system_payload_same_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "model_same_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "max_tokens_same_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "messages_same_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "synthetic_user_message_same_48",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "local_result_same",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "rc22_block_matches_both_sources",
+      "status": "PASS",
+      "detail": "0f1e5ea1a5359994f7592e30fd488e21875c5abb7b185cc92eb1566cb2411105"
+    },
+    {
+      "check": "rc23_examined_block_source_locked",
+      "status": "PASS",
+      "detail": "4ed370b1d77e547a2a7a70fd31f3016c0d16a1362b643f98c248d177a637a34f"
+    },
+    {
+      "check": "rc23_navigator_block_source_locked",
+      "status": "PASS",
+      "detail": "ed44f9839234fa067a950c2bde6a2bebd6d5264eb00b91f160c84a588c257bbf"
+    },
+    {
+      "check": "candidate_system_exact_transform",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "baseline_system_exact_rc22",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "payload_hashes_self_consistent",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "p06a_navigator_local_byte_identical",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "captured_requests_sha256": "f70ae5a232e29628361466646657627031390abb1e85ae0d143ae6cc5e22ea9e"
+}

@@ -1,0 +1,29 @@
+{
+  "stage": "SENTINEL-5A",
+  "date": "2026-08-11",
+  "baseline": "RC2.2 three-defect",
+  "candidate": "RC2.3 residual-defect",
+  "status": "READY FOR LIVE EXECUTION / STUDENT HOLD",
+  "baseline_versions": [
+    "baseline_rc2_2"
+  ],
+  "candidate_versions": [
+    "candidate_rc2_3"
+  ],
+  "captured_requests_sha256": "f70ae5a232e29628361466646657627031390abb1e85ae0d143ae6cc5e22ea9e",
+  "strict_reviewer_sha256": "3396da65abd6548ece473448ae0cdf9b2eb3044a96505db5813ea772ecfa4170",
+  "frozen_build_sha256": {
+    "EBB-AI-SENTINEL-4_EXAMINED_RC2.2_THREE_DEFECT.zip": "598523ff941275456e6f676a722ec35afd81418f0f2b0844f855a15ad780dfd5",
+    "EBB-AI-SENTINEL-4_NAVIGATOR_RC2.2_THREE_DEFECT.zip": "2ce8f8e33c787b0acd19633e1bcb15cda055d6e28c28e862d863180801204255",
+    "EBB-AI-SENTINEL-5_EXAMINED_RC2.3_RESIDUAL_DEFECT.zip": "0f974d82daba8ed6847cd050d23d33339ebd3d07c069ff153faf58c0b4f84110",
+    "EBB-AI-SENTINEL-5_NAVIGATOR_RC2.3_RESIDUAL_DEFECT.zip": "6359d7376027bc125551533309d47fa4a48e3c31bacbfe929f1809888acca8cd"
+  },
+  "primary_records": 96,
+  "candidate_repeat_records": 51,
+  "total_records": 147,
+  "candidate_repeat_groups": 17,
+  "external_safety_completion_token_injected": false,
+  "holdouts_included": false,
+  "holdouts_spent": false,
+  "evidence_ceiling": "production-compatible source-locked request reconstruction; not fresh browser capture"
+}

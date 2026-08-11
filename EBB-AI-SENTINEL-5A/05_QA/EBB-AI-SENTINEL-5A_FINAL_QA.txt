@@ -1,0 +1,39 @@
+EBB-AI-SENTINEL-5A FINAL QA
+STATUS: PASS — HARNESS/REQUEST PARITY ONLY; LIVE BEHAVIOR PENDING; STUDENT PROMOTION HOLD
+
+Captured requests SHA256: f70ae5a232e29628361466646657627031390abb1e85ae0d143ae6cc5e22ea9e
+Captured parity checks: 22/22 PASS
+Preflight checks: 221/221 PASS
+Plan: 96 primary + 51 candidate repeats = 147 total; 17 repeat groups.
+Blind reviewer SHA256: 3396da65abd6548ece473448ae0cdf9b2eb3044a96505db5813ea772ecfa4170 (byte-identical to SENTINEL-3C/4A).
+Scorer logic: inherited from SENTINEL-4A; stage/version/default-output labels only.
+RC2.3 external safety completion token: contract present in candidate system prompts; token itself NOT injected into test messages/payload context.
+Browser-level recapture: NOT CLAIMED. Production-compatible request reconstruction is source-locked and non-system payload parity is exact.
+Independent 12 paraphrased holdouts: NOT INCLUDED / NOT SPENT.
+Affected LC1: PENDING after live gate clearance.
+Human Fall signoff: PENDING and cannot authorize deployment before gates clear.
+
+ADDITIONAL PACKAGE QA
+PASS — captured_parity_pass — 22/22
+PASS — captured_96 — 96
+PASS — captured_sha_frozen — f70ae5a232e29628361466646657627031390abb1e85ae0d143ae6cc5e22ea9e
+PASS — preflight_pass — 221
+PASS — preflight_all_checks_pass — 221
+PASS — reviewer_exact — 3396da65abd6548ece473448ae0cdf9b2eb3044a96505db5813ea772ecfa4170
+PASS — scorer_logic_label_only — 
+PASS — plan_primary_96 — 
+PASS — plan_repeat_51 — 
+PASS — plan_total_147 — 
+PASS — plan_groups_17 — 
+PASS — baseline_build_hashes — 
+PASS — candidate_build_hashes — 
+PASS — no_holdout_files — 
+PASS — workflow_5a_names — 
+PASS — workflow_rc22_rc23 — 
+PASS — token_not_injected_into_payloads — 
+PASS — token_contract_present_candidate — 
+PASS — token_contract_absent_baseline — 
+PASS — no_pycache — 
+PASS — offline_synthetic_validator_smoke — exact 147-record validator PASS
+PASS — offline_synthetic_separation_packager_smoke — blind/custodian separation PASS; 147 blind records
+PASS — workflow_yaml_parse — workflow YAML parsed successfully

@@ -1,0 +1,15 @@
+EBB-AI-SENTINEL-5A — RC2.2 -> RC2.3 SYSTEM TRANSFORMATION LOCK
+
+For each of the 47 backend scenario+tutor request pairs:
+1. Start from the exact production-compatible RC2.2 request skeleton used as the candidate side of SENTINEL-4A.
+2. Preserve model, max_tokens, messages, user message, routing, and all non-system payload fields byte-for-byte at the JSON-value level.
+3. Replace exactly the RC2.2 failure-localized evidence-discipline block bounded by:
+   START: FAILURE-LOCALIZED EVIDENCE DISCIPLINE — THIS CLARIFIES HOW TO APPLY THE SAFETY OVERRIDE AND ORDINARY CONSTITUTION:
+   END: ORDINARY CONSTRUCTIVE-SENTINEL CONSTITUTION
+   with the corresponding exact RC2.3 block independently extracted from the frozen SENTINEL-5 application source for that tutor.
+4. Examined and Navigator RC2.3 blocks are intentionally not byte-identical because Examined contains the extra Count Enforcement response-shape rule.
+5. Navigator P06-A remains the fixed local interruption; no backend request is made for that pair.
+6. No SAFETY_COMPLETION_CONFIRMED=TRUE status is supplied by these test requests. The P03-B test therefore exercises the conservative unresolved-safety path required by RC2.3.
+
+EVIDENCE CEILING
+This is a source-locked production-compatible request reconstruction, not a fresh browser capture. It supports causal request/prompt parity claims, not browser-execution identity claims.
