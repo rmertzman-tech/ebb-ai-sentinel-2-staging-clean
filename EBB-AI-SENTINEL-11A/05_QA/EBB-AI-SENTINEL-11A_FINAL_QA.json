@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "count": 16,
+  "checks": [
+    {
+      "check": "frozen_build_hashes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "captured_requests_96",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "captured_parity_483",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "backend_pairs_47",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "local_pair_p06a",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_only_backend_delta",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exact_rc29_transform",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "strict_reviewer_hash",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "preflight_409",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "execution_plan_147",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "repeat_groups_17",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "offline_validator",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "offline_separation",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "namespace_isolation",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "completion_token_not_injected",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "holdouts_lc1",
+      "status": "PASS",
+      "detail": ""
+    }
+  ]
+}

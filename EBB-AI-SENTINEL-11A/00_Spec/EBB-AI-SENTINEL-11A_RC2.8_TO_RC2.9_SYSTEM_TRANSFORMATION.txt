@@ -1,0 +1,9 @@
+EBB-AI-SENTINEL-11A — RC2.8 TO RC2.9 SYSTEM-ONLY REQUEST TRANSFORMATION
+
+Baseline source: exact candidate_rc2_8 primary records from SENTINEL-10A, relabeled baseline_rc2_8 with no payload changes.
+Candidate: clone each RC2.8 record, relabel candidate_rc2_9, insert only the exact three RC2.9 controls before the inherited request-first block, and update only the priority-routing sentence. All non-system payload fields remain unchanged. Navigator P06-A remains fixed local. No SAFETY_COMPLETION_CONFIRMED=TRUE token is injected.
+
+Captured requests SHA-256: 3abc2687e20c25b9c54b0190a5933000d9f08decee2d22e833a663ff5bea1a8c
+Strict reviewer SHA-256: 3396da65abd6548ece473448ae0cdf9b2eb3044a96505db5813ea772ecfa4170
+
+Production-compatible source-locked transformation; not a fresh browser capture.
