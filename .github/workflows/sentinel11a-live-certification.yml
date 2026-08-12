@@ -1,4 +1,4 @@
-name: EBB AI SENTINEL-10A RC2.8-vs-RC2.9 Production-Compatible Live Certification
+name: EBB AI SENTINEL-11A RC2.8-vs-RC2.9 Production-Compatible Live Certification
 
 on:
   workflow_dispatch:
