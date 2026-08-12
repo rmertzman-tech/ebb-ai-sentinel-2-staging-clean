@@ -1,0 +1,19 @@
+EBB-AI-SENTINEL-10A — RC2.7 TO RC2.8 SYSTEM-ONLY REQUEST TRANSFORMATION
+
+Baseline request source:
+- exact candidate_rc2_7 primary records from SENTINEL-9A
+- relabeled baseline_rc2_7 with no payload changes
+
+Candidate transformation:
+- clone each exact RC2.7 primary record
+- relabel candidate_rc2_8
+- insert only the exact three RC2.8 controls before EVIDENCE-MINIMAL OUTPUT CONTRACT — NO-MECHANISM DEFAULT
+- replace only the existing PRIORITY sentence to route Safety-Echo through provenance, explicit safe count requests through deterministic request-first, and sparse mechanism cases through literal-fact fallback
+- preserve model, max_tokens, messages, routing, synthetic message, required behavior, failure target, and every other non-system payload field
+- preserve Navigator P06-A local interruption exactly
+- do not inject SAFETY_COMPLETION_CONFIRMED=TRUE
+
+Captured requests SHA-256: c76c2b324650096f97b813949c7105a4b7b08af9514a60a25728ad6c89440008
+Strict reviewer SHA-256: 3396da65abd6548ece473448ae0cdf9b2eb3044a96505db5813ea772ecfa4170
+
+This is a production-compatible source-locked transformation, not a fresh browser capture.

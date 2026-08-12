@@ -1,0 +1,22 @@
+{
+  "stage": "SENTINEL-10A",
+  "comparison": "RC2.7-vs-RC2.8",
+  "status": "READY FOR LIVE EXECUTION / HOLD FOR STUDENTS",
+  "captured_requests_sha256": "c76c2b324650096f97b813949c7105a4b7b08af9514a60a25728ad6c89440008",
+  "strict_reviewer_sha256": "3396da65abd6548ece473448ae0cdf9b2eb3044a96505db5813ea772ecfa4170",
+  "baseline_examined_sha256": "b805e576d699b6ca8daf82b6266ea5dfdd8288aef7dbfd8f23872ce6d6d92cad",
+  "baseline_navigator_sha256": "c67cc46d28ff4d1c2fcfdc430a63585daa0780f503feeb6223013ddf0f9fd3d5",
+  "candidate_examined_sha256": "a97587a923c1569eddca3035980bab15f6f14b6079cc610c9d70bc4eb324e0ec",
+  "candidate_navigator_sha256": "099bd4bfe4579f3c86b0cc535ee26b67738d7c361653fa8a88f3a15fd435491d",
+  "primary_records": 96,
+  "candidate_repeat_records": 51,
+  "total_records": 147,
+  "repeat_groups": 17,
+  "captured_request_parity": "483/483 PASS",
+  "preflight": "409/409 PASS",
+  "final_qa": "16/16 PASS",
+  "live_behavioral_certification": "NOT RUN",
+  "affected_lc1": "NOT RUN",
+  "independent_holdouts": "UNSPENT",
+  "student_promotion": "HOLD"
+}

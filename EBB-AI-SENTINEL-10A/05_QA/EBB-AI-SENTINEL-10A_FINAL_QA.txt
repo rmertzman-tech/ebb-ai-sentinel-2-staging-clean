@@ -1,0 +1,24 @@
+EBB-AI-SENTINEL-10A FINAL QA
+
+Status: 16/16 PASS
+Live behavioral certification: NOT RUN
+Independent 12-case holdouts: UNSPENT
+Affected LC1: NOT RUN
+Student promotion: HOLD
+
+PASS | frozen_build_hashes | 
+PASS | strict_reviewer_hash | 
+PASS | captured_requests_hash | c76c2b324650096f97b813949c7105a4b7b08af9514a60a25728ad6c89440008
+PASS | captured_parity_all_pass | 483
+PASS | preflight_all_pass | 409
+PASS | plan_96_51_147 | 
+PASS | repeat_groups_17 | 
+PASS | offline_validator_pass | 
+PASS | offline_separation_pass | 
+PASS | offline_blind_147 | 
+PASS | workflow_exact_name | 
+PASS | workflow_three_artifacts | 
+PASS | completion_token_not_in_messages | 
+PASS | holdouts_unspent | 
+PASS | affected_lc1_not_run | 
+PASS | student_promotion_hold | 

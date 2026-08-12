@@ -1,0 +1,11 @@
+{
+  "run_id": "680c59aa-0d80-42f7-b2c5-cb02c93ab4f6",
+  "started_at": "2026-08-12T11:34:07Z",
+  "mode": "full",
+  "captured_requests_sha256": "c76c2b324650096f97b813949c7105a4b7b08af9514a60a25728ad6c89440008",
+  "primary_records": 96,
+  "repeat_records": 51,
+  "total_records": 147,
+  "candidate_repeat_groups": 17,
+  "plan_only": true
+}
