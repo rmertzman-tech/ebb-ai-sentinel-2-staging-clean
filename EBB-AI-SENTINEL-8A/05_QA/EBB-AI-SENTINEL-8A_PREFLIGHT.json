@@ -1,0 +1,1596 @@
+{
+  "status": "PASS",
+  "count": 318,
+  "checks": [
+    {
+      "check": "captured_sha256",
+      "status": "PASS",
+      "detail": "a107a9d5ddfcb9adc6ba561c197dfc203bf80d60676191c2337de94ba7e9759a"
+    },
+    {
+      "check": "captured_96",
+      "status": "PASS",
+      "detail": "96"
+    },
+    {
+      "check": "baseline_48",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "candidate_48",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "backend_94",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "local_2",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "pairs_48",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P01-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P01-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P01-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P01-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P01-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P01-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P01-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P01-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P01-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P01-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P01-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P01-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P01-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P01-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P01-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P01-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P01-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P01-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P01-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P01-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P01-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P01-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P01-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P01-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P02-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P02-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P02-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P02-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P02-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P02-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P02-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P02-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P02-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P02-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P02-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P02-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P02-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P02-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P02-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P02-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P02-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P02-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P02-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P02-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P02-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P02-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P02-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P02-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P03-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P03-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P03-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P03-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P03-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P03-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P03-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P03-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P03-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P03-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P03-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P03-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P03-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P03-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P03-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P03-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P03-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P03-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P03-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P03-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P03-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P03-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P03-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P03-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P04-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P04-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P04-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P04-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P04-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P04-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P04-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P04-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P04-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P04-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P04-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P04-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P04-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P04-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P04-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P04-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P04-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P04-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P04-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P04-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P04-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P04-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P04-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P04-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P05-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P05-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P05-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P05-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P05-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P05-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P05-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P05-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P05-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P05-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P05-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P05-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P05-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P05-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P05-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P05-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P05-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P05-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P05-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P05-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P05-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P05-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P05-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P05-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P06-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P06-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P06-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P06-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P06-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P06-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P06-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P06-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "local_same_P06-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P06-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P06-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P06-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P06-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P06-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P06-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P06-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P06-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P06-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P06-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P06-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P06-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P07-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P07-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P07-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P07-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P07-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P07-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P07-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P07-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P07-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P07-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P07-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P07-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P07-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P07-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P07-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P07-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P07-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P07-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P07-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P07-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P07-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P07-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P07-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P07-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P08-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P08-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P08-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P08-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P08-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P08-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P08-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P08-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P08-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P08-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P08-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P08-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P08-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P08-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P08-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P08-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P08-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P08-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P08-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P08-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P08-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P08-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P08-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P08-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P09-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P09-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P09-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P09-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P09-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P09-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P09-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P09-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P09-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P09-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P09-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P09-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P09-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P09-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P09-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P09-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P09-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P09-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P09-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P09-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P09-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P09-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P09-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P09-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P10-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P10-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P10-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P10-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P10-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P10-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P10-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P10-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P10-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P10-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P10-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P10-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P10-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P10-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P10-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P10-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P10-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P10-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P10-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P10-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P10-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P10-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P10-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P10-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P11-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P11-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P11-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P11-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P11-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P11-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P11-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P11-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P11-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P11-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P11-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P11-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P11-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P11-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P11-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P11-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P11-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P11-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P11-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P11-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P11-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P11-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P11-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P11-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P12-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P12-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P12-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P12-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P12-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P12-A_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P12-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P12-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P12-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P12-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P12-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P12-A_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P12-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P12-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P12-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P12-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P12-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P12-B_Examined Companion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "route_P12-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "user_P12-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "system_changed_P12-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "non_system_same_P12-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_candidate_P12-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "new_markers_baseline_absent_P12-B_Navigator Twin",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "build_EBB-AI-SENTINEL-7_EXAMINED_RC2.5_INVARIANT_GENERALIZATION.zip",
+      "status": "PASS",
+      "detail": "c1c06769f78087986972fcbbe0754964dac682b8d08203f9ecc5631292133d19"
+    },
+    {
+      "check": "build_EBB-AI-SENTINEL-7_NAVIGATOR_RC2.5_INVARIANT_GENERALIZATION.zip",
+      "status": "PASS",
+      "detail": "67312af0bbee3411de478cff17657273d6f05c5dcb87b45f5e86ad0a2c40a198"
+    },
+    {
+      "check": "build_EBB-AI-SENTINEL-8_EXAMINED_RC2.6_CLAUSE_LEVEL_EVIDENCE_GATE.zip",
+      "status": "PASS",
+      "detail": "2f756f5c3dc7f97f89f36acbb31c29275b23e727a2f6d125e4a20e9f812f0061"
+    },
+    {
+      "check": "build_EBB-AI-SENTINEL-8_NAVIGATOR_RC2.6_CLAUSE_LEVEL_EVIDENCE_GATE.zip",
+      "status": "PASS",
+      "detail": "0e9277551819f4ec3d985748a33c10a9245c3c671078102bb2990625852cf94f"
+    },
+    {
+      "check": "strict_reviewer_byte_identical",
+      "status": "PASS",
+      "detail": "3396da65abd6548ece473448ae0cdf9b2eb3044a96505db5813ea772ecfa4170"
+    },
+    {
+      "check": "blind_code_namespace_salted",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "execution_plan_seed_unchanged",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "compile_run_live_paired_certification.py",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "compile_validate_live_results.py",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "compile_package_separated_artifacts.py",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "compile_score_review.py",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "plan_only_exec",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "plan_primary_96",
+      "status": "PASS",
+      "detail": "96"
+    },
+    {
+      "check": "plan_repeats_51",
+      "status": "PASS",
+      "detail": "51"
+    },
+    {
+      "check": "plan_total_147",
+      "status": "PASS",
+      "detail": "147"
+    },
+    {
+      "check": "plan_repeat_groups_17",
+      "status": "PASS",
+      "detail": "17"
+    },
+    {
+      "check": "repeat_candidate_only",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "repeat_backend_only",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "repeat_high_risk_only",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reviewer_forbids_version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reviewer_forbids_trial",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "reviewer_forbids_phase",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "completion_token_not_injected_into_messages",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "scorer_positive_exec",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "scorer_positive_gate",
+      "status": "PASS",
+      "detail": "ELIGIBLE FOR HUMAN FALL SIGNOFF"
+    },
+    {
+      "check": "scorer_negative_gate",
+      "status": "PASS",
+      "detail": "HOLD - LIVE BEHAVIORAL GATE FAILED OR REQUIRES ADJUDICATION"
+    }
+  ]
+}

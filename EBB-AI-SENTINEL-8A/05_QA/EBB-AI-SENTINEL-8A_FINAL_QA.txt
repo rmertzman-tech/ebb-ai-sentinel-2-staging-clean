@@ -1,0 +1,35 @@
+EBB-AI-SENTINEL-8A FINAL QA
+
+Status: PASS
+Checks: 26/26 PASS
+Live behavioral certification: NOT RUN
+Independent 12-case holdouts: NOT RUN
+Affected LC1: NOT RUN
+Student promotion: HOLD
+
+PASS | frozen_baseline_examined_hash | 
+PASS | frozen_baseline_navigator_hash | 
+PASS | frozen_candidate_examined_hash | 
+PASS | frozen_candidate_navigator_hash | 
+PASS | strict_reviewer_hash | 
+PASS | captured_requests_hash | a107a9d5ddfcb9adc6ba561c197dfc203bf80d60676191c2337de94ba7e9759a
+PASS | captured_parity_status | 
+PASS | preflight_status | 318
+PASS | plan_147 | 
+PASS | plan_96_primary | 
+PASS | plan_51_repeats | 
+PASS | repeat_groups_17 | 
+PASS | validator_smoke_pass | 
+PASS | separation_smoke_pass | 
+PASS | blind_smoke_147 | 
+PASS | workflow_name_correct | 
+PASS | workflow_three_success_artifacts | 
+PASS | cross_run_blind_code_namespace | 
+PASS | no_macos_metadata | 
+PASS | holdouts_unspent | 
+PASS | parity_detailed_all_pass | 207
+PASS | preflight_detailed_all_pass | 318
+PASS | backend_pairs_system_only_47 | 47
+PASS | local_pair_unchanged | 1
+PASS | candidate_exact_additive_transform | 
+PASS | completion_token_not_injected | 

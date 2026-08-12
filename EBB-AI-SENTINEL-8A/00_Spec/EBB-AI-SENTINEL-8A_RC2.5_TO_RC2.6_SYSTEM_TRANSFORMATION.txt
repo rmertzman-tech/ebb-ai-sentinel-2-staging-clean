@@ -1,0 +1,28 @@
+EBB-AI-SENTINEL-8A — RC2.5 TO RC2.6 SYSTEM-ONLY REQUEST TRANSFORMATION
+
+Source request skeleton:
+- exact RC2.5 candidate primary records from SENTINEL-7A
+- re-labeled baseline_rc2_5 without changing backend payload values
+
+Candidate transformation:
+- clone each exact RC2.5 backend payload
+- insert only the four exact RC2.6 additive instruction blocks frozen in SENTINEL-8, immediately before PROPORTIONATE CONCERN AND MECHANISM-FIRST INQUIRY:
+  1. CLAUSE-LEVEL EVIDENCE GATE — FINAL EMISSION CHECK
+  2. QUESTION-SYMMETRY ANCHOR CHECK
+  3. ONE-HOP INFERENCE LOCK — NO CHAINED EXPLANATION
+  4. OCCURRENCE-STATE REGRESSION CLAMP
+- preserve the existing captured priority sentence to isolate the additive clause-level controls
+- preserve model, max_tokens, messages, route, synthetic user message, required behavior, failure target, and all other payload fields
+- preserve Navigator P06-A fixed local interruption byte-for-byte
+- do not inject SAFETY_COMPLETION_CONFIRMED=TRUE into user/messages or any separate runtime field
+
+Frozen identities:
+RC2.5 Examined SHA256 c1c06769f78087986972fcbbe0754964dac682b8d08203f9ecc5631292133d19
+RC2.5 Navigator SHA256 67312af0bbee3411de478cff17657273d6f05c5dcb87b45f5e86ad0a2c40a198
+RC2.6 Examined SHA256 2f756f5c3dc7f97f89f36acbb31c29275b23e727a2f6d125e4a20e9f812f0061
+RC2.6 Navigator SHA256 0e9277551819f4ec3d985748a33c10a9245c3c671078102bb2990625852cf94f
+
+Captured requests SHA256 a107a9d5ddfcb9adc6ba561c197dfc203bf80d60676191c2337de94ba7e9759a
+Strict reviewer SHA256 3396da65abd6548ece473448ae0cdf9b2eb3044a96505db5813ea772ecfa4170
+
+This is a production-compatible source-locked additive reconstruction, not a fresh browser capture.
