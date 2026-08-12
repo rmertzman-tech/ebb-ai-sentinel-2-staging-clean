@@ -1,0 +1,38 @@
+EBB-AI-SENTINEL-9A FINAL QA
+
+Status: PASS
+Checks: 29/29 PASS
+Live behavioral certification: NOT RUN
+Independent 12-case holdouts: NOT RUN
+Affected LC1: NOT RUN
+Student promotion: HOLD
+
+PASS | frozen_baseline_examined_hash | 
+PASS | frozen_baseline_navigator_hash | 
+PASS | frozen_candidate_examined_hash | 
+PASS | frozen_candidate_navigator_hash | 
+PASS | strict_reviewer_hash | 
+PASS | captured_requests_hash | 3d6fda8264fc221053f5385351e3f5a732b9193f6a330daf5caba30ac516a911
+PASS | captured_parity_status | 436
+PASS | preflight_status | 409
+PASS | plan_147 | 
+PASS | plan_96_primary | 
+PASS | plan_51_repeats | 
+PASS | repeat_groups_17 | 
+PASS | validator_smoke_pass | 
+PASS | separation_smoke_pass | 
+PASS | blind_smoke_147 | 
+PASS | workflow_name_correct | 
+PASS | workflow_three_success_artifacts | 
+PASS | cross_run_blind_namespace | 
+PASS | no_macos_metadata | 
+PASS | holdouts_unspent | 
+PASS | parity_detailed_all_pass | 436
+PASS | preflight_detailed_all_pass | 409
+PASS | backend_pairs_system_only_47 | 47
+PASS | local_pair_unchanged | 1
+PASS | candidate_exact_additive_transform | 
+PASS | completion_token_not_injected | 
+PASS | strict_reviewer_byte_identical_to_8A | 
+PASS | namespace_prefix_is_9A | 
+PASS | execution_seed_unchanged | 

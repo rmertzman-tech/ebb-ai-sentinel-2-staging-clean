@@ -1,0 +1,84 @@
+name: EBB AI SENTINEL-9A RC2.6-vs-RC2.7 Production-Compatible Live Certification
+
+on:
+  workflow_dispatch:
+    inputs:
+      endpoint:
+        description: 'Production-compatible tutor proxy endpoint'
+        required: true
+        default: 'https://ucp-backend-4dig.onrender.com/api/claude-proxy'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sentinel9a-live-certification
+  cancel-in-progress: false
+
+jobs:
+  certify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Preflight locked identities, request parity, and 147-record plan
+        run: python EBB-AI-SENTINEL-9A/03_Live_Harness/run_sentinel9a_preflight.py
+
+      - name: Run full RC2.6 vs RC2.7 certification
+        run: |
+          python EBB-AI-SENTINEL-9A/03_Live_Harness/run_live_paired_certification.py \
+            --mode full \
+            --endpoint "${{ inputs.endpoint }}" \
+            --output-dir sentinel9a-live-results
+
+      - name: Validate exact live corpus and hidden-key reconciliation
+        run: |
+          python EBB-AI-SENTINEL-9A/03_Live_Harness/validate_live_results.py \
+            --results-dir sentinel9a-live-results
+
+      - name: Package strict blind and custodian artifacts separately
+        run: |
+          python EBB-AI-SENTINEL-9A/03_Live_Harness/package_separated_artifacts.py \
+            --results-dir sentinel9a-live-results \
+            --harness-dir EBB-AI-SENTINEL-9A/03_Live_Harness \
+            --out-dir sentinel9a-artifacts
+
+      - name: Upload strict blind-review artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sentinel9a-blind-review
+          path: sentinel9a-artifacts/sentinel9a-blind-review.zip
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Upload custodian results
+        uses: actions/upload-artifact@v4
+        with:
+          name: sentinel9a-custodian-results
+          path: sentinel9a-artifacts/sentinel9a-custodian-results.zip
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Upload separation receipt
+        uses: actions/upload-artifact@v4
+        with:
+          name: sentinel9a-separation-receipt
+          path: sentinel9a-artifacts/EBB-AI-SENTINEL-9A_ARTIFACT_SEPARATION_RECEIPT.json
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Upload failure diagnostics if execution/validation failed
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sentinel9a-custodian-failure-diagnostics
+          path: |
+            sentinel9a-live-results/**
+            EBB-AI-SENTINEL-9A/05_QA/**
+          if-no-files-found: warn
+          retention-days: 14
